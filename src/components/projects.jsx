@@ -135,14 +135,14 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/winhacks.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3 style={{fontWeight: 'bold'}}>Lost In The Seperation (WinHacks 2020)</h3>
+											<h3 style={{fontWeight: 'bold'}}>Lost In The Separation (WinHacks 2020)</h3>
 											<span style={{color: 'black', fontWeight: 'bold'}}>React, Redux, Firebase</span>
 											<p className="icon">
 												<span><a href="https://github.com/Vicky310/Winhacks2020"><i className="icon-github" />Code</a></span>
 												<span><a href="https://winhacks2020-88149.firebaseapp.com/"><i className="icon-eye" /> Demo</a></span>
 												<span onClick={this.showWinHacksModal}><a href><i className="icon-info" />Info</a></span>
 												<Modal
-                                                title="Lets Talk Messenger"
+                                                title="Lost In The Separation"
                                                 visible={this.state.showWinHacks}
                                                 onOk={this.handleCloseWinHacks}
                                                 closable={false}
@@ -176,7 +176,7 @@ export default class Projects extends Component {
 											<p className="icon">
 											<span onClick={this.showSciOfReliefModal}><a href><i className="icon-info" />Info</a></span>
 												<Modal
-                                                title="Lets Talk Messenger"
+                                                title="Sci of Relief"
                                                 visible={this.state.showSciOfRelief}
                                                 onOk={this.handleCloseSciOfRelief}
                                                 closable={false}
@@ -198,34 +198,6 @@ export default class Projects extends Component {
 									</div>
 								</div>
 							</div>
-							{/* <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 05</a></h3>
-											<span>Graphic, Logo</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-github" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 06</a></h3>
-											<span>Web Design</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-github" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div> */}
 						</div>
 					</div>
 				</section>
