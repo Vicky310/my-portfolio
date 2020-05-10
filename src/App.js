@@ -13,6 +13,7 @@ class App extends Component {
   render() {
     return (
       <div id="colorlib-page">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <div id="container-wrap">
          	<Sidebar></Sidebar>
 				<div id="colorlib-main">
