@@ -49,7 +49,7 @@ export default class Blog extends Component {
 									<div className="desc">
 										<span><small>May 12, 2020 </small> | <small> Angular, React, Vue </small></span>
 										<h3><a href="https://medium.com/@vigneshwaran.03.10/angular-vs-react-vs-vue-a77645361ada">Angular Vs React Vs Vue</a></h3>
-										<p>A simple comparison of the top 3 JavaScript frameworks.</p>
+										<p>A simple comparison of the top 3 JavaScript frameworks.</p> 
 									</div>
 								</div>
 							</div>
