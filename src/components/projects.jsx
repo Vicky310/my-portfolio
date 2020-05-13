@@ -238,7 +238,7 @@ export default class Projects extends Component {
 														the map reduce technique the unstructured data is
 														analyzed and based on the symptoms given by the
 														patient the disease is effectively diagnosed and the best
-														drug is identified.
+														drug is identified. 
                                                 </p>
 												</Modal>
 											</p>
