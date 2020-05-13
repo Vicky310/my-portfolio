@@ -17,11 +17,22 @@ export default class Timeline extends Component {
                 <div className="timeline-centered">
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-1">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Associate at Walmart - Part time<span> 2019-Present</span></h2>
+                        <p> I'm working as an Associate at Walmart since November and it has greatly increased my multitasking skills. Also I got to learn a lot about Canadian work culture and customer communication </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Graduate student at University of Windsor <span>2019-present</span></h2>
+                        <h2>Graduate student at University of Windsor <span>2019-Present</span></h2>
                         <p>I'm pursuing Master of Applied Computing, A profressional course targeted to train you for industry standards. </p>
                       </div>
                     </div>
@@ -44,7 +55,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Bachelors of Engineering in Computer Science - Panimalar Engineering College <span>2012-2016</span></h2>
-                        <p>The spark was created during my high school when I got my first Personal Computer and that resulted in pursuing my Undergrad as a Computer Science major</p> 
+                        <p>The spark was created during my high school when I got my first Personal Computer and that resulted in pursuing my Undergrad as a Computer Science major</p>
                       </div>
                     </div>
                   </article>
