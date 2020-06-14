@@ -7,7 +7,8 @@ export default class Projects extends Component {
 		showBurger: false,
 		showWinHacks: false,
 		showSciOfRelief: false,
-		showDiagnosis: false
+		showDiagnosis: false,
+		showNodeShop: false
 	};
 
 	showMessengerModal = () => {
@@ -70,6 +71,18 @@ export default class Projects extends Component {
 		});
 	};
 
+	showNodeShopModal = () => {
+		this.setState({
+			showNodeShop: true,
+		});
+	};
+
+	handleCloseNodeShop = e => {
+		this.setState({
+			showNodeShop: false,
+		});
+	};
+
 
 	render() {
 		return (
@@ -83,6 +96,38 @@ export default class Projects extends Component {
 							</div>
 						</div>
 						<div className="row">
+						<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+								<div className="project" style={{ backgroundImage: 'url(images/node-shop.jpg)' }}>
+									<div className="desc">
+										<div className="con">
+											<h3 style={{ fontWeight: 'bold' }}>Node Shop</h3>
+											<span style={{ color: 'black', fontWeight: 'bold' }}>Node.js, MongoDB</span>
+											<p className="icon">
+												<span><a href="https://github.com/Vicky310/Node-Shop" target="_blank" rel="noopener noreferrer"><i className="icon-github" />Code</a></span>
+												<span><a href="https://node-shop-vicky.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="icon-eye" /> Demo</a></span>
+												<span onClick={this.showNodeShopModal}><a href><i className="icon-info" />Info</a></span>
+												<Modal
+													title="Node Shop"
+													visible={this.state.showNodeShop}
+													onOk={this.handleCloseNodeShop}
+													closable={false}
+													footer={[
+														<Button key="Ok" onClick={this.handleCloseNodeShop}>
+															Return
+                                                    </Button>,
+
+													]}
+												>
+													<p>
+														My most recent application created entirely on Node.js. I was working on it to test my backend development skills. It turned out to be a full scale E-Commerce application
+														with Stripe for payment and MongoDB for storage. Go ahead and play with it in the Demo link!
+                                                </p>
+												</Modal>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 								<div className="project" style={{ backgroundImage: 'url(images/messenger.jpg)' }}>
 									<div className="desc">
@@ -90,7 +135,7 @@ export default class Projects extends Component {
 											<h3 style={{ fontWeight: 'bold' }}>Lets Talk Messenger</h3>
 											<span style={{ color: 'black', fontWeight: 'bold' }}>React, ExpressJS, MongoDB</span>
 											<p className="icon">
-												<span><a href="https://github.com/Vicky310/MongoDBMessenger"><i className="icon-github" />Code</a></span>
+												<span><a href="https://github.com/Vicky310/MongoDBMessenger" target="_blank" rel="noopener noreferrer"><i className="icon-github" />Code</a></span>
 												<span onClick={this.showMessengerModal}><a href><i className="icon-info" />Info</a></span>
 												<Modal
 													title="Lets Talk Messenger"
@@ -120,8 +165,8 @@ export default class Projects extends Component {
 											<h3 style={{ fontWeight: 'bold' }}>Burger Builder</h3>
 											<span style={{ color: 'black', fontWeight: 'bold' }}>React, Redux, Firebase</span>
 											<p className="icon">
-												<span><a href="https://github.com/Vicky310/BurgerBuilderWebApplication"><i className="icon-github" />Code</a></span>
-												<span><a href="https://react-burgerapplication.firebaseapp.com/"><i className="icon-eye" /> Demo</a></span>
+												<span><a href="https://github.com/Vicky310/BurgerBuilderWebApplication" target="_blank" rel="noopener noreferrer"><i className="icon-github" />Code</a></span>
+												<span><a href="https://react-burgerapplication.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><i className="icon-eye" /> Demo</a></span>
 												<span onClick={this.showBurgerModal}><a href><i className="icon-info" />Info</a></span>
 												<Modal
 													title="Burger Builder"
@@ -151,8 +196,8 @@ export default class Projects extends Component {
 											<h3 style={{ fontWeight: 'bold' }}>Lost In The Separation (WinHacks 2020)</h3>
 											<span style={{ color: 'black', fontWeight: 'bold' }}>React, Redux, Firebase</span>
 											<p className="icon">
-												<span><a href="https://github.com/Vicky310/Winhacks2020"><i className="icon-github" />Code</a></span>
-												<span><a href="https://winhacks2020-88149.firebaseapp.com/"><i className="icon-eye" /> Demo</a></span>
+												<span><a href="https://github.com/Vicky310/Winhacks2020" target="_blank" rel="noopener noreferrer"><i className="icon-github" />Code</a></span>
+												<span><a href="https://winhacks2020-88149.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><i className="icon-eye" /> Demo</a></span>
 												<span onClick={this.showWinHacksModal}><a href><i className="icon-info" />Info</a></span>
 												<Modal
 													title="Lost In The Separation"
@@ -218,7 +263,7 @@ export default class Projects extends Component {
 											<h3 style={{ fontWeight: 'bold' }}>Disease diagnosis using Hadoop MapReduce</h3>
 											<span style={{ color: 'black', fontWeight: 'bold' }}>Java, Hadoop</span>
 											<p className="icon">
-												<span><a href="https://github.com/Vicky310/HadoopDiseaseAnalyzer"><i className="icon-github" />Code</a></span>
+												<span><a href="https://github.com/Vicky310/HadoopDiseaseAnalyzer" target="_blank" rel="noopener noreferrer"><i className="icon-github" />Code</a></span>
 												<span onClick={this.showDiagnosisModal}><a href><i className="icon-info" />Info</a></span>
 												<Modal
 													title="Disease diagnosis using Hadoop"
