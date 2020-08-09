@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Vicky310.github.io/my-portfolio",
+  "homepage": "https://vicky310.github.io/my-portfolio",
   "dependencies": {
     "antd": "^4.2.0",
     "gh-pages": "^2.2.0",
