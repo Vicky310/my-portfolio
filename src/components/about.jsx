@@ -71,7 +71,7 @@ export default class About extends Component {
                                     </span>
                                     <div className="desc">
                                         <h3>Travel</h3>
-                                        <p>I'm a travel freak. I like to travel places. Meet new people. Get new experience.</p>
+                                        <p>I'm a travel freak. I like to travel places. Meet new people. Get new experience .</p>
                                     </div>
                                 </div>
                             </div>
