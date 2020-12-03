@@ -31,16 +31,16 @@ export default class Skills extends Component {
 								<div className="progress-wrap">
 									<h3>React</h3>
 									<div className="progress">
-										<div className="progress-bar color-6" role="progressbar" aria-valuenow="75"
-											aria-valuemin="0" aria-valuemax="100" style={{ width: '75%' }}>
-											<span>Intermediate</span>
+										<div className="progress-bar color-6" role="progressbar" aria-valuenow="100"
+											aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}>
+											<span>Advanced</span>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 								<div className="progress-wrap">
-									<h3>Redux</h3>
+									<h3>React Native</h3>
 									<div className="progress">
 										<div className="progress-bar color-6" role="progressbar" aria-valuenow="75"
 											aria-valuemin="0" aria-valuemax="100" style={{ width: '75%' }}>
@@ -51,11 +51,11 @@ export default class Skills extends Component {
 							</div>
 							<div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
 								<div className="progress-wrap">
-									<h3>Express JS</h3>
+									<h3>Java</h3>
 									<div className="progress">
-										<div className="progress-bar color-6" role="progressbar" aria-valuenow="50"
-											aria-valuemin="0" aria-valuemax="100" style={{ width: '50%' }}>
-											<span>Beginner</span>
+										<div className="progress-bar color-6" role="progressbar" aria-valuenow="75"
+											aria-valuemin="0" aria-valuemax="100" style={{ width: '75%' }}>
+											<span>Intermediate</span>
 										</div>
 									</div>
 								</div>
@@ -117,11 +117,11 @@ export default class Skills extends Component {
 							</div>
 							<div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
 								<div className="progress-wrap">
-									<h3>VS code</h3>
+									<h3>Docker</h3>
 									<div className="progress">
-										<div className="progress-bar color-6" role="progressbar" aria-valuenow="100"
-											aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}>
-											<span>Advanced</span>
+										<div className="progress-bar color-6" role="progressbar" aria-valuenow="50"
+											aria-valuemin="0" aria-valuemax="100" style={{ width: '50%' }}>
+											<span>Beginner</span>
 										</div>
 									</div>
 								</div>

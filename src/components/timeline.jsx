@@ -21,8 +21,10 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Associate at Walmart - Part time<span> 2019-Present</span></h2>
-                        <p> I'm working as an Associate at Walmart since November and it has greatly increased my multitasking skills. Also I got to learn a lot about Canadian work culture and customer communication </p>
+                        <h2>Tazwiz - MERN Stack developer intern<span> July 2020 - December 2020</span></h2>
+                        <p> Developed new features for Tazwiz.com handling responsive design in front end using React and creating new APIs in Node.js backend.</p>
+                        <p> Worked closely with Chief Architect to build Tazwiz mobile application for both Android and iOS from scratch in React Native</p>
+                        <p> Developed a care home booking system with a customer facing web application using React and an Admin application using React Admin </p>
                       </div>
                     </div>
                   </article>
@@ -32,7 +34,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Graduate student at University of Windsor <span>2019-Present</span></h2>
+                        <h2>Graduate student at University of Windsor <span>September 2019 - December 2020</span></h2>
                         <p>I'm pursuing Master of Applied Computing, A profressional course targeted to train you for industry standards. </p>
                       </div>
                     </div>
@@ -43,7 +45,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Software Engineer - Accenture Solutions <span>2016-2019</span></h2>
+                        <h2>Software Engineer - Accenture Solutions <span>December 2016 - July 2019</span></h2>
                         <p>As a Software Engineer at Accenture I was exposed to the cool things JavaScript could do in a Web application and I was a part of the team responsible for creating a Web application for a Diamond Client of Accenture</p>
                       </div>
                     </div>
@@ -54,7 +56,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Bachelors of Engineering in Computer Science - Panimalar Engineering College <span>2012-2016</span></h2>
+                        <h2>Bachelors of Engineering in Computer Science - Panimalar Engineering College <span>August 2012 - May 2016</span></h2>
                         <p>The spark was created during my high school when I got my first Personal Computer and that resulted in pursuing my Undergrad as a Computer Science major</p>
                       </div>
                     </div>

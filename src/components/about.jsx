@@ -13,8 +13,8 @@ export default class About extends Component {
                                         <div className="about-desc">
                                             <span className="heading-meta">About Me</span>
                                             <h2 className="colorlib-heading">Who Am I?</h2>
-                                            <p>I'm a Graduate student at University of Windsor pursuing Master of Applied Computing for the fun of computing!</p>
-                                            <p>I keep learning new technologies for the love of it and keep creating stuff out of the things I learn. I'm currently at the end of my graduate semester and looking for an internship opportunity to learn, share and of course <b>CREATE!</b> </p>
+                                            <p>I like spinning the web and swinging along. Not a <b>Spiderman</b> but a <b>Web developer</b>. (Although I would'nt mind if I'm a Spiderman too :P)</p>
+                                            <p>I keep learning new technologies for the love of it and keep creating stuff out of the things I learn. I would love for an opportunity to collaborate, learn, share and of course <b>CREATE!</b> </p>
                                         </div>
                                     </div>
                                 </div>
@@ -36,9 +36,9 @@ export default class About extends Component {
                                     <span className="icon">
                                         <i className="icon-bulb" />
                                     </span>
-                                    <div className="desc">
-                                        <h3>Web Development </h3>
-                                        <p>I love building web applications using Angular, React and anything JavaScript and HTML</p>
+                                    <div className="desc" style={{ backgroundColor: 'white' }}>
+                                        <h3>Development </h3>
+                                        <p>I love building applications using Angular, React, React Native and anything JavaScript and HTML</p>
                                     </div>
                                 </div>
                             </div>

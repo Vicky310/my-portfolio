@@ -20,7 +20,7 @@ export default class Contact extends Component {
 										<i className="icon-globe-outline"></i>
 									</div>
 									<div className="colorlib-text">
-										<p>balasubv@uwindsor.ca</p>
+										<p>vigneshwaran0310@gmail.com</p>
 									</div>
 								</div>
 
@@ -29,7 +29,7 @@ export default class Contact extends Component {
 										<i className="icon-map"></i>
 									</div>
 									<div className="colorlib-text">
-										<p>242 Brock Street Windsor, Ontario N9C2S6</p>
+										<p>Toronto, Ontario M1G2P9</p>
 									</div>
 								</div>
 
