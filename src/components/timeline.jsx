@@ -17,11 +17,24 @@ export default class Timeline extends Component {
                 <div className="timeline-centered">
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>IHS Markit (Now part of S&P Global) - Full stack developer<span> March 2021 - Present</span></h2>
+                        <p> Working with front end and back end in implementing and maintaining APIs and related front-end capabilities</p>
+                        <p> Taking team initiatives on practicing coding best practices like TDD and following SDLC principles</p>
+                        <p> Proactively working on code optimization to increase performance and to give a code structure that reduces human errors </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Tazwiz - MERN Stack developer intern<span> July 2020 - December 2020</span></h2>
+                        <h2>Tazwiz - MERN stack developer intern<span> July 2020 - February 2021</span></h2>
                         <p> Developed new features for Tazwiz.com handling responsive design in front end using React and creating new APIs in Node.js backend.</p>
                         <p> Worked closely with Chief Architect to build Tazwiz mobile application for both Android and iOS from scratch in React Native</p>
                         <p> Developed a care home booking system with a customer facing web application using React and an Admin application using React Admin </p>
@@ -35,7 +48,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Graduate student at University of Windsor <span>September 2019 - December 2020</span></h2>
-                        <p>I'm pursuing Master of Applied Computing, A profressional course targeted to train you for industry standards. </p>
+                        <p>I'm pursuing Master of Applied Computing, A profressional course targeted to train you for industry standards</p>
                       </div>
                     </div>
                   </article>

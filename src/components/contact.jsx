@@ -29,7 +29,7 @@ export default class Contact extends Component {
 										<i className="icon-map"></i>
 									</div>
 									<div className="colorlib-text">
-										<p>Toronto, Ontario M1G2P9</p>
+										<p>London, Ontario N5Y0B2</p>
 									</div>
 								</div>
 
